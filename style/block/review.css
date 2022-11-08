@@ -1,0 +1,57 @@
+.review-text {
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-top: 58px;
+    padding-bottom: 40px;
+}
+
+.review {
+    position: relative;
+}
+
+.review-background {
+    display: block;
+}
+
+.review-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    line-height: 32px;
+    color: var(--review-color--submain);
+}
+
+/* REVIEW PERSON */
+
+.review-person {
+    display: flex;
+    align-items: center;
+}
+
+.review-avatar {
+    padding-right: 24px;
+    padding-top: 18px;
+}
+
+.rewiew-img {
+    display: block;
+    border-radius: 50%;
+}
+
+/* REVIEW NAME */
+
+.review-firstname {
+    font-family: 'Open Sans';
+    font-size: 20px;
+    line-height: 32px;
+    color: var(--white-main-color);
+}
+
+.review-profession {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--white-submain-color);
+}

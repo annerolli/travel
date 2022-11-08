@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRL</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/ligth.css" id="theme-link">
+</head>
+<body>
+    <div class="body">
+        <div id="container">
+            <div class="body-hero hero">
+                <header class="hero-header header">
+                    <a href="#" class="header-logo">
+                        <svg width="83" height="28" viewBox="0 0 83 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.64 28V4.16H5.96046e-08V-1.90735e-06H25.84V4.16H14.96V28H10.64ZM56.6188 -1.90735e-06L44.0188 28H38.8188L25.8988 -1.90735e-06H30.7788L38.2588 16.68C38.7121 17.7467 39.2454 18.9333 39.8588 20.24C40.4988 21.52 41.0588 22.7467 41.5388 23.92C42.0188 22.7467 42.5388 21.5333 43.0988 20.28C43.6854 19 44.1921 17.8267 44.6188 16.76L51.5388 -1.90735e-06H56.6188ZM82.6247 23.84V28H59.5847V-1.90735e-06H63.9047V23.84H82.6247Z" fill="white"/>
+                        </svg>                                    
+                    </a>
+                    <nav class="header-nav nav">
+                        <ul class="nav-list">
+                            <li class="nav-listItem">
+                                <a class='nav-link' href="#about">
+                                    About
+                                </a>
+                            </li>
+                            <li class="nav-listItem">
+                                <a class='nav-link' href="#tours">
+                                    Tours
+                                </a>
+                            </li>
+                            <li class="nav-listItem">
+                                <a class='nav-link' href="#blog">
+                                    Blog
+                                </a>
+                            </li>
+                            <li class="nav-listItem">
+                                <a class='nav-link' href="#contact">
+                                    Contact
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header-button">
+                        <button type="button" class="button button-header">
+                            book trip
+                        </button>
+                    </div>
+                </header>
+                <div class="hero-caption">
+                    <div class="hero-captionSubtitle">
+                        Book Your Trip
+                    </div>
+                    <h1 class="hero-captionTitle">
+                        Choose Your Favorite <br>Tour To Explore
+                    </h1>
+                </div>
+            </div>
+            <div class="hero-galery galery">
+                <ul class="galery-list" id="slider">
+                    <li class="galery-item">
+                        <figure>
+                            <img class="galery-img" src="./assets/img/header1.jpg" alt="New York">
+                            <figcaption class="galery-title">
+                                <p>New Yourk City</p>
+                                <p class="galery-subtitle">USA</p>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="galery-item">
+                        <figure>
+                            <img class="galery-img" src="./assets/img/header2.jpg" alt="Barcelona">
+                            <figcaption class="galery-title">
+                                <p>Barcelona</p>
+                                <p class="galery-subtitle">Spain</p>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="galery-item">
+                        <figure>
+                            <img class="galery-img" src="./assets/img/header3.jpg" alt="San Francisko">
+                            <figcaption class="galery-title">
+                                <p>San Francisko</p>
+                                <p class="galery-subtitle">USA</p>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="galery-item">
+                        <figure>
+                            <img class="galery-img" src="./assets/img/header4.jpg" alt="Paris">
+                            <figcaption class="galery-title">
+                                <p>Paris</p>
+                                <p class="galery-subtitle">France</p>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="galery-item">
+                        <figure>
+                            <img class="galery-img" src="./assets/img/header5.jpg" alt="Rome">
+                            <figcaption class="galery-title">
+                                <p>Rome</p>
+                                <p class="galery-subtitle">Italy</p>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="galery-item">
+                        <figure>
+                            <img class="galery-img" src="./assets/img/header8.jpg" alt="Rio-de-Janeiro">
+                            <figcaption class="galery-title">
+                                <p>Rio-de-Janeiro</p>
+                                <p class="galery-subtitle">Brasil</p>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="galery-item">
+                        <figure>
+                            <img class="galery-img" src="./assets/img/header9.jpg" alt="Venice">
+                            <figcaption class="galery-title">
+                                <p>Venice</p>
+                                <p class="galery-subtitle">Italy</p>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="galery-item">
+                        <figure>
+                            <img class="galery-img" src="./assets/img/header7.jpg" alt="Praga">
+                            <figcaption class="galery-title">
+                                <p>Praga</p>
+                                <p class="galery-subtitle">Czech</p>
+                            </figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        
+        <section class="body-section body-container container" id="about">
+            <div class="container-block">
+                <div class="container-info">
+                    <div class="container-head head">
+                        <div class="head-subtitle">
+                            About
+                        </div>
+                        <div class="head-title">
+                            Explore Our<br>Planet Together
+                        </div>
+                    </div>
+                    <p class="container-description">
+                        It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+                    </p>
+                    <div class="container-application">
+                        <svg width="44" height="36" viewBox="0 0 44 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.15691 0.894043C2.83015 0.894043 0.947266 2.77779 0.947266 5.10454C0.947266 7.43042 2.83027 9.31504 5.15703 9.31504C7.48379 9.31504 9.3683 7.43042 9.3683 5.10454C9.36842 2.77867 7.48367 0.894043 5.15691 0.894043ZM5.15703 6.78867C4.22815 6.78954 3.47365 6.03329 3.47365 5.10454C3.47365 4.17579 4.22815 3.42042 5.15703 3.42042C6.08679 3.42042 6.84204 4.17579 6.84204 5.10454C6.84216 6.03329 6.08679 6.78867 5.15703 6.78867ZM33.579 26.158C33.579 23.3673 35.84 21.1054 38.6317 21.1054C41.4224 21.1054 43.6843 23.3673 43.6843 26.158C43.6843 28.9488 41.4224 31.2107 38.6317 31.2107C35.8402 31.2107 33.579 28.9488 33.579 26.158ZM36.1053 26.158C36.1053 27.5509 37.2388 28.6844 38.6317 28.6844C40.0245 28.6844 41.158 27.5509 41.158 26.158C41.158 24.7652 40.0245 23.6317 38.6317 23.6317C37.2388 23.6317 36.1053 24.7652 36.1053 26.158ZM20.2494 23.9165L20.2519 23.9057L20.2674 23.8316L20.2494 23.9165ZM7.31657 35.2565V35.2541L7.33328 35.1763L7.31657 35.2565Z" fill="#F07C52"/>
+                        </svg>
+                        <div class="container-application-text">
+                            <p class="container-title">
+                                Great Adventures
+                            </p>
+                            <p class="container-subtitle">
+                                Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language. 
+                            </p>
+                        </div>
+                    </div>
+                    <button class="button button--orange">
+                        About Us
+                    </button>
+                </div>
+                <div class="container-Imgs">
+                    <img class='container-Img container-Img--big' src="./assets/img/aboutUs2.jpg" alt="">
+                    <img class='container-Img container-Img--small' src="./assets/img/aboutUs1.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="body-section body-exclusive exclusive">
+            <div class="exclusive-head head head--center">
+                <div class="head-subtitle">
+                    EXCLUSIVE OFFERS
+                </div>
+                <div class="head-title">
+                    Discover Popular Destinations
+                </div>
+            </div>
+            
+            <div class="exclusive-galery galery">
+                <ul class="exclusive-list galery-list">
+                    <li  data-price="$199" class="galery-item exclusive-item">
+                        <a href="#" class="exclusive-link">
+                            <figure>
+                                <img class='galery-img'src="./assets/img/ex1.jpg" alt="Rome">
+                                <figcaption class="galery-title galery-title--secondary">
+                                    <p>Rome</p>
+                                    <p class="galery-subtitle galery-subtitle--secondary">Italy</p>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li data-price="$250" class="galery-item exclusive-item">
+                        <a href="#" class="exclusive-link">
+                            <figure>
+                                <img class='galery-img'src="./assets/img/ex2.jpg" alt="New Yourk">
+                                <figcaption class="galery-title galery-title--secondary">
+                                    <p>New York</p>
+                                    <p class="galery-subtitle galery-subtitle--secondary">USA</p>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li data-price="$128" class="galery-item exclusive-item">
+                        <a href="#" class="exclusive-link">
+                            <figure>
+                                <img class='galery-img'src="./assets/img/ex3jpg.jpg" alt="Paris">
+                                <figcaption class="galery-title galery-title--secondary">
+                                    <p>Paris</p>
+                                    <p class="galery-subtitle galery-subtitle--secondary">France</p>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="body-section body-best-tour best-tour" id="tours">
+            <div class="best-tour-head head">
+                <div class="head-subtitle">
+                    Best Adventures
+                </div>
+                <div class="head-title">
+                    Our Popular <br> Tours & Expeditions
+                </div>
+            </div>
+            <div class="best-tour-list">
+                <ul class="best-tour-cardlist">
+                    <li class="best-tour-card card">
+                        <div class="card-info">
+                            <div class="card-info-title">
+                                Rome, Italy
+                            </div>
+                            <div class="card-info-subtitle">
+                                12–24 Jun 2020
+                            </div>
+                            <div class="card-info-price">
+                                $349
+                            </div>
+                        </div>
+                        <div class="card-image">
+                            <img class="card-img" src="./assets/img/popular/popular1.jpg" alt="">
+                        </div>
+                    </li>
+                    <li class="best-tour-card card">
+                        <div class="card-info">
+                            <div class="card-info-title">
+                                New York City, USA
+                            </div>
+                            <div class="card-info-subtitle">
+                                12–24 Jun 2020
+                            </div>
+                            <div class="card-info-price">
+                                $200
+                            </div>
+                        </div>
+                        <div class="card-image">
+                            <img class="card-img" src="./assets/img/popular/popular2.jpg" alt="New York">
+                        </div>
+                    </li>
+                    <li class="best-tour-card card">
+                        <div class="card-info">
+                            <div class="card-info-title">
+                                Barcelona, Spain
+                            </div>
+                            <div class="card-info-subtitle">
+                                12–24 Jun 2020
+                            </div>
+                            <div class="card-info-price">
+                                $95
+                            </div>
+                        </div>
+                        <div class="card-image">
+                            <img class="card-img" src="./assets/img/popular/popular3.jpg" alt="Barselona">
+                        </div>
+                    </li>
+                    <li class="best-tour-card card ">
+                        <div class="card-info card-info--primary">
+                            <div class="card-info-title">
+                                Paris, France
+                            </div>
+                            <div class="card-info-subtitle">
+                                12–24 Jun 2020
+                            </div>
+                            <div class="card-info-price">
+                                $1200
+                            </div>
+                        </div>
+                        <div class="card-image">
+                            <img class="card-img" src="./assets/img/popular/popular4.jpg" alt="Paris">
+                        </div>
+                    </li>
+                    <li class="best-tour-card card">
+                        <div class="card-info">
+                            <div class="card-info-title">
+                                San Francisco, USA
+                            </div>
+                            <div class="card-info-subtitle">
+                                12–24 Jun 2020
+                            </div>
+                            <div class="card-info-price">
+                                $480
+                            </div>
+                        </div>
+                        <div class="card-image">
+                            <img class="card-img" src="./assets/img/popular/popular5.jpg" alt="">
+                        </div>
+                    </li>
+                    <li class="best-tour-card card">
+                        <div class="card-info card-info--secondary">
+                            <div class="card-info-title">
+                                Amesbury, UK
+                            </div>
+                            <div class="card-info-subtitle">
+                                12–24 Jun 2020
+                            </div>
+                            <div class="card-info-price">
+                                $569
+                            </div>
+                        </div>
+                        <div class="card-image">
+                            <img class="card-img" src="./assets/img/popular/popular6.jpg" alt="Amesbury">
+                        </div>
+                    </li>
+                    <li class="best-tour-card card">
+                        <div class="card-info card-info--secondary">
+                            <div class="card-info-title">
+                                Versailles, France
+                            </div>
+                            <div class="card-info-subtitle">
+                                12–24 Jun 2020
+                            </div>
+                            <div class="card-info-price">
+                                $100
+                            </div>
+                        </div>
+                        <div class="card-image">
+                            <img class="card-img" src="./assets/img/popular/popular7.jpg" alt="Versailles">
+                        </div>
+                    </li>
+                    <li class="best-tour-card card">
+                        <div class="card-info card-info--secondary">
+                            <div class="card-info-title">
+                                Venice, Italy
+                            </div>
+                            <div class="card-info-subtitle">
+                                12–24 Jun 2020
+                            </div>
+                            <div class="card-info-price">
+                                $99
+                            </div>
+                        </div>
+                        <div class="card-image">
+                            <img class="card-img" src="./assets/img/popular/popular8.jpg" alt="Venice">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="best-tour-button">
+                <button class="button button--white">
+                    See More
+                </button>
+            </div>
+        </section>
+
+
+        <section class="body-section body-container container">
+            <div class="container-block container-block--reverce">
+                <div class="container-info container-info--reverce ">
+                    <div class="container-head head">
+                        <div class="head-subtitle">
+                            Features
+                        </div>
+                        <div class="head-title">
+                            Get Unique Experience
+                        </div>
+                    </div>
+                    <p class="container-description">
+                        Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language. 
+                    </p>
+                    <ul class="container-application container-application--list">
+                        <li class="container-item">
+                            <a href="#" class="container-link">
+                                Transfers
+                            </a>
+                        </li>
+                        <li class="container-item">
+                            <a href="#" class="container-link">
+                                Optimal
+                            </a>
+                        </li>
+                        <li class="container-item">
+                            <a href="#" class="container-link">
+                                Guides
+                            </a>
+                        </li>
+                        <li class="container-item">
+                            <a href="#" class="container-link">
+                                Locals
+                            </a>
+                        </li>
+                    </ul>
+                    <button class="button button--orange">
+                        Service
+                    </button>
+                </div>
+                <div class="container-Imgs container-Img--reverce ">
+                    <img class='container-Img container-Img--big' src="./assets/img/feature1.jpg" alt="">
+                    <img class='container-Img container-Img--right' src="./assets/img/feature2.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="body-section body-testimonails testimonains">
+            <div class="testimonails-head head head--center">
+                <div class="head-subtitle">
+                    Testimonials
+                </div>
+                <div class="head-title">
+                    Travel Tips<br>From Travellers
+                </div>
+            </div>
+            <div class="testimonails-container">
+                <ul class="testimonails-list">
+                    <li class="testimonails-item">
+                        <div class="testimonails-review">
+                            <blockquote class="review">
+                                <img  class="review-background" src="./assets/img/Combined Shape.jpg" alt="">
+                                <p class="review-text">
+                                    "When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road"
+                                </p>
+                                <cite class="review-person">
+                                    <div class="review-avatar">
+                                        <img src="./assets/img/avatar/avatar3.jpg" class="rewiew-img" alt="avatar">
+                                    </div>
+                                    <div class="review-name">
+                                        <div class="review-firstname">
+                                            Artem Sazonov
+                                        </div>
+                                        <div class="review-profession">
+                                            Student
+                                        </div>
+                                    </div>
+                                </cite>
+                            </blockquote>
+                        </div>
+                    </li>
+                    <li class="testimonails-item">
+                        <div class="testimonails-review">
+                            <blockquote class="review">
+                                <img  class="review-background" src="./assets/img/Combined Shape.jpg" alt="">
+                                <p class="review-text">
+                                    "She reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road"
+                                </p>
+                                <cite class="review-person">
+                                    <div class="review-avatar">
+                                        <img src="./assets/img/avatar/avatar2.jpg" class="rewiew-img" alt="avatar">
+                                    </div>
+                                    <div class="review-name">
+                                        <div class="review-firstname">
+                                            Merrile Burgett
+                                        </div>
+                                        <div class="review-profession">
+                                            Designer
+                                        </div>
+                                    </div>
+                                </cite>
+                            </blockquote>
+                        </div>
+                    </li>
+                    <li class="testimonails-item">
+                        <div class="testimonails-review">
+                            <blockquote class="review">
+                                <img  class="review-background" src="./assets/img/Combined Shape.jpg" alt="">
+                                <p class="review-text">
+                                    "Reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road"
+                                </p>
+                                <cite class="review-person">
+                                    <div class="review-avatar">
+                                        <img src="./assets/img/avatar/avatar1.jpg" class="rewiew-img" alt="avatar">
+                                    </div>
+                                    <div class="review-name">
+                                        <div class="review-firstname">
+                                            Gibby Radki
+                                        </div>
+                                        <div class="review-profession">
+                                            Developer
+                                        </div>
+                                    </div>
+                                </cite>
+                            </blockquote>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="body-section body-blog blog" id="blog">
+            <div class="blog-container">
+                <div class="blog-head head">
+                    <div class="head-subtitle">
+                        Our Blog
+                    </div>
+                    <div class="head-title">
+                        Read Our<br>Travel Articles
+                    </div>
+                </div>
+                <button class="blog-button button">
+                    See More
+                </button>
+            </div>
+            <ul class="blog-list">
+                <li class="blog-item">
+                    <div class="card">
+                        <div class="card-container">
+                            <div class="card-info">
+                                <div class="card-info-title">
+                                    Rome, Italy
+                                </div>
+                                <div class="card-info-subtitle">
+                                    12–24 Jun 2020
+                                </div>
+                                <div class="card-info-name">
+                                    $349
+                                </div>
+                            </div>
+                            <div class="card-avatar">
+                                <img class="card-img-avatar" src="./assets/img/blog/Bitmap.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="card-image">
+                            <img class="card-img" src="./assets/img/blog/blog1.jpg" alt="">
+                        </div>
+                    </div>
+                </li>
+                <li class="blog-item">
+                    <div class="card">
+                        <div class="card-container">
+                            <div class="card-info">
+                                <div class="card-info-title">
+                                    Rome, Italy
+                                </div>
+                                <div class="card-info-subtitle">
+                                    12–24 Jun 2020
+                                </div>
+                                <div class="card-info-name">
+                                    $349
+                                </div>
+                            </div>
+                            <div class="card-avatar">
+                                <img class="card-img-avatar" src='./assets/img/blog/Bitmap1.jpg' alt="">
+                            </div>
+                        </div>
+                        <div class="card-image">
+                            <img class="card-img" src="./assets/img/blog/blog2.jpg" alt="">
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="blog-news">
+                <div class="blog-news-head">
+                    <div class="blog-news-title">
+                        Newsletter
+                    </div>
+                    <div class="blog-news-subtitle">
+                        Separated they live in right at the coast of the Semantics
+                    </div>
+                </div>
+                <form action="" class="blog-form" method="get">
+                    <input type="email" class="blog-input" placeholder="Your Email">
+                    <button class="blog-new-button button button--green" type="submit">
+                        Subscribe
+                    </button>
+                </form>
+            </div>
+        </section>
+
+        <address class="body-section body-address container" id="contact">
+            <div class="container-block container-block--reverce container-block--border">
+                <div class="container-info">
+                    <div class="container-head head">
+                        <div class="head-subtitle head-subtitle--white">
+                            Contact
+                        </div>
+                        <div class="head-title head-title--footer">
+                            Get In Touch With Us
+                        </div>
+                    </div>
+                    <p class="container-description container-description--white">
+                        Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language. 
+                    </p>
+                    <div class="container-application">
+                        <ul class="container-contact-list">
+                            <li class="container-contact-item">
+                                <div class="container-contact-icon container-icon-phone">
+
+                                </div>
+                                <a href="tel+12345678902" class="container-contact-telephone">
+                                    +1 (234) 567-89-02
+                                </a>
+                            </li>
+                            <li class="container-contact-item">
+                                <div class="container-contact-icon container-icon-email">
+                                    
+                                </div>
+                                <a href="mailto:travel@adventure.com" class="container-contact-email">
+                                    travel@adventure.com
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="button button--green">
+                        Contact Us
+                    </button>
+                </div>
+                <div class="container-address-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2383.249660769701!2d50.309007232277224!3d53.32088301591951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x416617b0eca69af9%3A0xe8b726cf1aef49d!2z0YPQuy4g0JzQsNGA0YjQsNC70LAg0KPRgdGC0LjQvdC-0LLQsCwgOCwg0KHQsNC80LDRgNCwLCDQodCw0LzQsNGA0YHQutCw0Y8g0L7QsdC7LiwgNDQzMDI4!5e0!3m2!1sru!2sru!4v1663178865105!5m2!1sru!2sru" width="570" height="592" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </address>
+
+        <footer class="body-section body-footer footer">
+            <div class="footer-container">
+                <a href="#" class="footer-logo">
+                    <svg width="83" height="28" viewBox="0 0 83 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.64 28V4.16H5.96046e-08V-1.90735e-06H25.84V4.16H14.96V28H10.64ZM56.6188 -1.90735e-06L44.0188 28H38.8188L25.8988 -1.90735e-06H30.7788L38.2588 16.68C38.7121 17.7467 39.2454 18.9333 39.8588 20.24C40.4988 21.52 41.0588 22.7467 41.5388 23.92C42.0188 22.7467 42.5388 21.5333 43.0988 20.28C43.6854 19 44.1921 17.8267 44.6188 16.76L51.5388 -1.90735e-06H56.6188ZM82.6247 23.84V28H59.5847V-1.90735e-06H63.9047V23.84H82.6247Z" fill="white"/>
+                    </svg>    
+                </a>
+                <nav class="footer-nav">
+                    <span class="footer-list-name">
+                        Menu
+                    </span>
+                    <ul class="footer-list">
+                        <li class="footer-list-item">
+                            <a href="#about" class="footer-list-link">
+                                About
+                            </a>
+                        </li>
+                        <li class="footer-list-item">
+                            <a href="#tours" class="footer-list-link">
+                                Tours
+                            </a>
+                        </li>
+                        <li class="footer-list-item">
+                            <a href="#blog" class="footer-list-link">
+                                Blog
+                            </a>
+                        </li>
+                        <li class="footer-list-item">
+                            <a href="#contact" class="footer-list-link">
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="footer-service">
+                    <span class="footer-list-name">
+                        Service
+                    </span>
+                    <ul class="footer-list">
+                        <li class="footer-list-item">
+                            <a href="" class="footer-list-link">
+                                Transfers
+                            </a>
+                        </li>
+                        <li class="footer-list-item">
+                            <a href="" class="footer-list-link">
+                                Guides
+                            </a>
+                        </li>
+                        <li class="footer-list-item">
+                            <a href="" class="footer-list-link">
+                                Locals
+                            </a>
+                        </li>
+                        <li class="footer-list-item">
+                            <a href="" class="footer-list-link">
+                                Optimal
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <span class="footer-list-name">
+                        Social
+                    </span>
+                    <ul class="footer-list-social">
+                        <li class="footer-link-social">
+                            <a href="" aria-label="Facebook" class="footer-icon-social">
+                                <svg width="10" height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2.66667 5.33333H0V8H2.66667V16H6.66667V8H9.09333L9.33333 5.33333H6.66667V4.22267C6.66667 3.58533 6.79467 3.33333 7.41067 3.33333H9.33333V0H6.128C3.73067 0 2.66667 1.056 2.66667 3.07733V5.33333Z" fill="white"/>
+                                </svg>                                    
+                            </a>
+                        </li>
+                        <li class="footer-link-social">
+                            <a href="" aria-label="Twitter" class="footer-icon-social">
+                                <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M16 1.54C15.412 1.80133 14.7787 1.97733 14.1147 2.05733C14.7933 1.65067 15.312 1.008 15.5587 0.241333C14.924 0.617333 14.2213 0.890667 13.4733 1.03733C12.876 0.398667 12.0213 0 11.0787 0C8.95867 0 7.40133 1.97733 7.88 4.03067C5.15333 3.89333 2.73333 2.58667 1.11467 0.601333C0.254667 2.076 0.669333 4.00667 2.13067 4.984C1.59333 4.96667 1.088 4.81867 0.645333 4.57333C0.609333 6.09333 1.7 7.516 3.27867 7.83333C2.81733 7.95867 2.31067 7.988 1.796 7.88933C2.21333 9.19333 3.428 10.1413 4.86267 10.168C3.48 11.2507 1.74267 11.7347 0 11.5293C1.45333 12.4613 3.17733 13.004 5.03067 13.004C11.1267 13.004 14.5693 7.856 14.3613 3.23867C15.004 2.77733 15.56 2.19867 16 1.54Z" fill="white"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer-link-social">
+                            <a href="" aria-label="Instagram" class="footer-icon-social">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M8 0C5.82667 0 5.556 0.00933333 4.70133 0.0493333C1.79467 0.182667 0.181333 1.79467 0.048 4.70133C0.00933333 5.556 0 5.828 0 8C0 10.1733 0.00933333 10.4453 0.048 11.2987C0.181333 14.204 1.79467 15.8187 4.70133 15.952C5.556 15.9907 5.82667 16 8 16C10.1733 16 10.4453 15.9907 11.3 15.952C14.2013 15.8187 15.8213 14.2067 15.952 11.2987C15.9907 10.4453 16 10.1733 16 8C16 5.828 15.9907 5.556 15.952 4.70133C15.8213 1.79867 14.2067 0.181333 11.3 0.0493333C10.4453 0.00933333 10.1733 0 8 0ZM8 1.44267C10.136 1.44267 10.3893 1.45067 11.2333 1.48933C13.4027 1.588 14.4133 2.616 14.5133 4.768C14.5507 5.612 14.5587 5.864 14.5587 8C14.5587 10.136 14.5507 10.3893 14.5133 11.232C14.4133 13.3827 13.404 14.4133 11.2333 14.512C10.3893 14.5493 10.1373 14.5587 8 14.5587C5.864 14.5587 5.61067 14.5507 4.768 14.512C2.59467 14.412 1.588 13.38 1.488 11.232C1.45067 10.3893 1.44133 10.136 1.44133 8C1.44133 5.864 1.45067 5.61067 1.488 4.768C1.58667 2.61467 2.59733 1.58667 4.768 1.488C5.61067 1.44933 5.864 1.44267 8 1.44267ZM3.892 8C3.892 5.73067 5.732 3.892 8 3.892C10.268 3.892 12.108 5.732 12.108 8C12.108 10.2693 10.268 12.108 8 12.108C5.732 12.108 3.892 10.2693 3.892 8ZM8 10.6667C6.52667 10.6667 5.33333 9.47333 5.33333 8C5.33333 6.528 6.52667 5.33333 8 5.33333C9.472 5.33333 10.668 6.52667 10.668 8C10.668 9.47333 9.472 10.6667 8 10.6667ZM11.3093 3.73067C11.3093 3.2 11.74 2.77067 12.2693 2.77067C12.8013 2.77067 13.2307 3.2 13.2307 3.73067C13.2307 4.26133 12.8 4.69067 12.2693 4.69067C11.7387 4.69067 11.3093 4.26 11.3093 3.73067Z" fill="white"/>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-cite">
+                <cite class="footer-copirating">
+                    Copyright © 2020 Laaqiq. All Rights Reserved.
+                </cite>
+                <div class="footer-pravicy">
+                    <a href='#' class="footer-pravicy-link">
+                        Terms of Use
+                    </a>
+                    <a href='#' class="footer-pravicy-link">
+                        Privacy Policy
+                    </a>
+                    <label class="footer_control control" id="footer_control">
+                        <input type="checkbox" class="control_checkbox">
+                        <span class="control_slider"></span>
+                    </label>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

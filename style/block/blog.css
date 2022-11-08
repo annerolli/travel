@@ -1,0 +1,84 @@
+.blog-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.blog-button {
+    margin-bottom: 67px;
+}
+
+/* BLOG LIST */
+
+.blog-list {
+    display: flex;
+    list-style: none;
+}
+
+/* BLOG ITEM */
+
+.blog-item {
+    width: 50%;
+}
+
+.blog-item:not(:nth-child(2n)) {
+    margin-right: 30px;
+}
+
+/* BLOG HEAD */
+
+.blog-head > .head-title{
+    color: var(--white-color-footer);
+}
+.blog-head > .head-subtitle  {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* BLOG NEWS */
+
+.blog-news {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 89px;
+}
+
+.blog-news-title {
+    font-family: 'LexendTera';
+    font-size: 40px;
+    line-height: 48px;
+    color: var(--white-color-footer);
+}
+
+.blog-news-subtitle {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    line-height: 32px;
+    color: var(--white-color-subtitle);
+}
+
+/* BLOG INPUT */
+
+.blog-input {
+    padding-top: 9px;
+    padding-bottom: 7px;
+    padding-right: 16px;
+    padding-left: 16px;
+    color: var(--color-input);
+    font-family: 'Open Sans';
+    font-size: 16px;
+    line-height: 32px;
+}
+
+
+
+.blog-input:focus {
+    outline-color: rgba(51, 51, 51, 0.5);
+    color: rgba(51, 51, 51, 0.5);
+}
+
+/* BLOG BUTTON */
+
+.blog-new-button {
+    margin-left: 30px;
+}

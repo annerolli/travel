@@ -1,0 +1,67 @@
+:root {
+    /* MAIN COLOR */
+
+    --background-color: #FFFFFF;
+
+    --white-main-color: rgba(0, 0, 0, 1);
+    --white-submain-color: rgba(0, 0, 0, 0.5);
+
+    --color-link: rgba(51, 51, 51, 1);
+
+
+
+    /* HEADER */
+
+    --background-color--main: #6347F9;
+
+    --nav-color-white: #FFFFFF;
+    --button-header-white: #FFFFFF;
+    --title-header-white: #FFFFFF;
+    --galery-color: rgba(51, 51, 51, 1);
+    --subtitle-heroImg-white: rgba(51, 51, 51, 0.5);
+
+    /*BUTTON*/
+
+    --button--green: rgba(82, 170, 127, 1);
+    --button--orange: rgba(240, 124, 82, 1);
+
+
+    /* EXCLUSIVE */
+
+    --background-color-ex: rgba(254, 114, 84, 0.08);
+
+    /* CARD */
+
+    --background-color-card: rgba(245, 246, 248, 1);
+    --background-color-card--secondary: rgba(255, 244, 241, 1);
+    --background-color-card--primary:rgba(99, 71, 249, 1);
+
+
+    --color-card-title: rgba(51, 51, 51, 1);
+    --color-card-subtitle:  rgba(51, 51, 51, 0.5);
+
+    /* INPUT */
+
+    --color-input: rgba(51, 51, 51, 0.5);
+
+    /* REVIEW */
+
+    --review-color--main: rgba(0, 0, 0, 1);
+    --review-color--submain: rgba(0, 0, 0, 0.5);
+
+
+    /* FOOTER */
+
+    --background-color-footer2:rgba(12, 26, 41, 1);
+    --background-color-footer: rgba(17, 37, 58, 1);
+    --white-color-footer: rgba(255, 255, 255, 1);
+    --white-color-subtitle: rgba(255, 255, 255, 0.5);
+
+
+
+
+
+
+
+
+}

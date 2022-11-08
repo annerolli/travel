@@ -1,0 +1,43 @@
+.head {
+    text-align: start;
+}
+
+.head-title {
+    font-family: 'LexendTera';
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 64px;
+    letter-spacing: -12px;
+    color: var(--white-main-color);
+    padding-top: 34px;
+    padding-bottom: 67px;
+    margin-left: -10px;
+}
+
+.head-title--footer {
+    color: var(--white-color-footer);
+    padding-bottom: 48px;
+}
+
+
+.head-title--small {
+    padding-bottom: 31px;
+}
+
+.head-subtitle {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 3px;
+    color: var(--white-submain-color);
+}
+
+.head-subtitle--white {
+    color: var(--white-color-subtitle);
+}
+
+
+.head--center {
+    text-align: center;
+}

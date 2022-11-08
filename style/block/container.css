@@ -1,0 +1,273 @@
+/* CONTAINER BLOCK */
+
+.container-block {
+    display: flex;
+}
+
+.container-block--reverce {
+    flex-direction: row-reverse;
+}
+
+.container-block--border {
+    border-top: 1px solid var(--white-color-footer);
+    padding-top: 111px;
+    padding-bottom: 116px;
+}
+
+/* CONTAINER INFO */
+
+.container-info {
+    flex-grow: 1;
+    margin-right: 80px;
+}
+
+.container-info--reverce {
+    margin-right: 40px;
+}
+
+/* CONTAINER DESCRIPTION */
+
+.container-description {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    color: var(--white-main-color);
+}
+
+.container-description--white {
+    color: var(--white-color-footer);
+}
+
+/* IMAGES*/
+
+.container-Imgs {
+    flex-shrink: 0;
+    padding-left: 100px;
+    margin-left: 62px;
+    position: relative;
+}
+
+.container-Img--reverce {
+    padding-left: 0;
+    margin-left: 0;
+    margin-right: 94px;
+    padding-right: 136px;
+}
+
+.container-Img {
+    display: block;
+}
+
+.container-Img--small {
+    position: absolute;
+    top: 100px;
+    left: 0;
+}
+
+.container-Img--right {
+    position: absolute;
+    top: 100px;
+    right: 0;
+}
+
+/* APPLICATION */
+
+.container-application {
+    display: flex;
+    align-items: start;
+    padding-top: 47px;
+    padding-bottom: 32px;
+}
+
+
+.container-application--list {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style-type: none;
+    font-family: 'Open Sans';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    padding-bottom: 56px;
+}
+
+.container-application-text {
+    margin-left: 50px;
+}
+
+/* APPLICATION LINK */
+
+.container-link {
+    color: var(--color-link);
+    text-decoration: none;
+    padding: 5px;
+}
+
+.container-link::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -2px;
+    height: 1px;
+    width: 0%;
+    background-color: var(--button--orange);
+    transition: width 0.5s;
+}
+
+.container-link:hover:before {
+    width: 70%;
+}
+
+/* APPLICATION ITEM */ 
+
+.container-item {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-right: 86px;
+    width: 160px;
+}
+
+.container-item:nth-child(n + 3) {
+    margin-top: 32px;
+}
+
+
+/* APPLICATION BEFORE */
+
+.container-item::before {
+    content: url('/assets/circle.svg');
+    margin-right: 16px;
+}
+
+.container-item::after{
+    position: absolute;
+    content: url('/assets/path.svg');
+    top: 0;
+    left: 8px;
+}
+
+/* CONTAINER TITLE */
+
+.container-title {
+    font-family: 'Open Sans';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    color: var(--white-main-color);
+}
+
+.container-subtitle {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    color: var(--white-submain-color);
+}
+
+/* CONTAINER LIST */
+
+.container-contact-list {
+    list-style-type: none;
+}
+
+/*  MAP  */
+
+.container-address-map {
+    padding-right: 133px;
+}
+
+/* CONTACT */
+
+.container-contact-icon {
+    position: relative;
+    border: 1px solid rgba(255, 255, 255, 0.2957);
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    margin-right: 16px;
+}
+
+.container-contact-item {
+    display: flex;
+    align-items: center;
+}
+
+.container-contact-item:not(:first-child) {
+    padding-top: 10px;
+}
+
+
+/* PHONE */
+
+.container-icon-phone::before {
+    position: absolute;
+    content: url('/assets/icons/Icon2.svg'); 
+    display: block;
+    top: 12px;
+    left: 10px;
+}
+
+.container-contact-telephone {
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--white-color-footer);
+    position: relative;
+}
+
+.container-contact-telephone::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 1px;
+    width: 0%;
+    background-color: #FFFFFF;
+    transition: width 0.5s;
+}
+
+.container-contact-item:hover .container-contact-telephone::after {
+    width: 100%;
+}
+
+
+
+/* EMAIL */
+
+.container-icon-email::before {
+    position: absolute;
+    content: url('/assets/icons/Icon1.svg'); 
+    display: block;
+    top: 12px;
+    left: 12px;
+}
+
+.container-contact-email {
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    line-height: 32px;
+    color: var(--white-color-subtitle);
+    position: relative;
+}
+
+.container-contact-email::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 1px;
+    width: 0%;
+    background-color: #FFFFFF;
+    transition: width 0.5s;
+}
+
+.container-contact-item:hover .container-contact-email::after {
+    width: 100%;
+}
+
+
+

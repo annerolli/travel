@@ -1,0 +1,35 @@
+.exclusive-head {
+    padding: 0 350px;
+}
+
+.exclusive-link {
+    text-decoration: none;
+}
+
+
+.exclusive-item {
+    position: relative;
+}
+
+.exclusive-item::before {
+    content: '';
+    position: absolute;
+    height: 144px;
+    width: 144px;
+    background-color: rgba(240, 124, 82, 1);
+    border-radius: 50%;
+    top: 224px;
+    left: 32px;
+}
+
+.exclusive-item::after {
+    content: attr(data-price);
+    position: absolute;
+    font-family: 'LexendTera';
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -8px;
+    top: 272px;
+    left: 53px;
+    color: rgba(255, 255, 255, 1);
+}

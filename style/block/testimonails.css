@@ -1,0 +1,13 @@
+.testimonails-list {
+    display: flex;
+    justify-content: center;
+}
+
+.testimonails-item {
+    list-style: none;
+}
+
+.testimonails-item:not(:nth-child(3n)) {
+    margin-right: 48px;
+}
+

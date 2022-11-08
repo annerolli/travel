@@ -1,0 +1,48 @@
+.hero {
+    background: var(--background-color--main);
+    height: 100vh;
+}
+
+.hero-header {
+    padding-top: 16px;
+    padding-left: 135px;
+    padding-right: 135px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-caption {
+    text-align: center;
+    padding-top: 113px;
+    padding-bottom: 131px;
+    color: var(--title-header-white);
+    overflow-x: hidden;
+}
+
+.hero-captionTitle {
+    font-family: 'LexendTera';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 80px;
+    letter-spacing: -14px;
+    transition: transform 0.3s;
+}
+
+.hero-captionTitle:hover {
+    transform: scale(1.1);
+}
+
+.hero-captionSubtitle {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding-bottom: 19px;
+}
+
+.hero-galery { 
+    margin-top: -220px;
+}

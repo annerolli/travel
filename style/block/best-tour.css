@@ -1,0 +1,27 @@
+.best-tour-list {
+    padding-bottom: 64px;
+}
+
+.best-tour-cardlist {
+    display: inline-flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.best-tour-card:nth-child(n+5) {
+    margin-top: 32px;
+}
+
+.best-tour-card:nth-child(odd),
+.best-tour-card:nth-child(even) {
+    margin-right: 20px;
+}
+
+.best-tour-card:nth-child(4n) {
+    margin-right: 0;
+}
+
+.best-tour-button {
+    text-align: center;
+}

@@ -1,0 +1,13 @@
+@font-face { 
+    font-family: "LexendTera"; 
+    src: url("./LexendTera-Regular.ttf"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('OpenSans-Light.ttf');
+    font-weight: normal;
+    font-style: normal;
+}

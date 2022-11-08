@@ -1,0 +1,48 @@
+.button {
+    height: 48px;
+    width: 154px;
+    border: 1px solid var(--button-header-white);
+    background: none;
+    box-sizing: border-box;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-family: 'LexendTera';
+    color: var(--button-header-white);
+    font-size: 16px;
+    letter-spacing: -3px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+
+.button:hover {
+    transform: scale(1.05);
+}
+
+.button--orange {
+    border-color: var(--button--orange);
+    background-color: var(--button--orange);
+    line-height: 20px;
+}
+
+.button--white {
+    border-color: var(--button--orange);
+    color:  var(--button--orange); 
+}
+
+.button--green {
+    border-color: var(--button--green);
+    background-color: var(--button--green);
+    border: none;
+}
+
+.button-header {
+    transition: box-shadow 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.button-header:hover {
+    transform: none;
+    box-shadow: 0 0 40px 40px var(--button-header-white) inset;
+    color: var(--background-color-card--primary);
+  }
